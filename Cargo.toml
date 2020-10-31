@@ -1,0 +1,17 @@
+[package]
+name = "nom-kaleidoscope"
+version = "0.1.0"
+authors = ["Martin Wang <wangxuesong@gmail.com>"]
+edition = "2018"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+nom = "5.0.1"
+nom_locate = "2.0.0"
+
+[dev-dependencies]
+pretty_assertions = "0.5.1"
